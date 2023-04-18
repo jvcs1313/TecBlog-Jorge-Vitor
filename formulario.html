@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecBlog - O seu Blog de tecnologia</title>
+    <link rel="stylesheet" href="styleformulario.css">
+</head>
+<body>
+    <div id="area-cabecalho">
+        <div id="area-logo">
+            <h1>Tec<span class="branco">Blog - Formulario</span></h1>
+        </div>
+
+        <div id="area-menu">
+            <a href="index.html">Home</a>
+            <a href="jogos.html">Jogos</a>
+            <a href="celulares.html">Celulares</a>
+            <a href="informatica.html">Informática</a>
+            <a href="eletronicos.html">Eletrônicos</a>
+            <a href="formulario.html">Formulario</a> 
+        </div>
+    </div>
+
+    <div id="area-principal">
+		<div id="area-postagens">
+            
+            
+<div class="postagem">
+	<h2>Formulario</h2>
+    <span class="data-postagem">Por favor preencha o fomulario que retornaremos o contato!</span>
+    <br>
+    <br>
+	<img width="620px" src="imagens/contato.png">
+    <br>
+    <br>
+	<form>
+        <fieldset>
+            <legend>Detalhes do contato</legend>
+            <div>
+                <label for="nome">Nome:</label> 
+                <!--  FOR = NAME RECUSO PARA ACESSIBILIDADE -->
+                <input type="text" nome="nome" id="nome">
+            </div>
+            <div>
+                <label for="email">E-mail:</label> 
+                <!--  FOR = NAME RECUSO PARA ACESSIBILIDADE -->
+                <input type="email" nome="" id="email">
+            </div>
+
+            <br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend></legend>
+            <div>
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+        <input type="button" value="ENVIAR">
+    </form>
+
+    </div>
+</div>
+
+</body>
+</html>
